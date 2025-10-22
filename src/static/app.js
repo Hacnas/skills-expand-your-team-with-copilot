@@ -328,6 +328,13 @@ document.addEventListener("DOMContentLoaded", () => {
       desc.includes("paint")
     ) {
       return "arts";
+      } else if (
+        name.includes("manga") ||
+        name.includes("anime") ||
+        desc.includes("manga") ||
+        desc.includes("anime")
+      ) {
+        return "arts";
     } else if (
       name.includes("science") ||
       name.includes("math") ||
